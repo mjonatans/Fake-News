@@ -1,7 +1,7 @@
 Fake News: A simple website built with some fake users, posts and comments.
 
-===============\
-How to set up project:\
+===============
+How to set up project:
 ===============
 
 1. Open files from this repository in a code editor.
