@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Posts{% endblock %}
+{% block content %}
+
+<div>
+    {% for user in data %}
+        <strong> Username: {{ user.getUsername() }}</strong>
+        <h3> Name: {{ user.getName() }}</h3>
+        <h3> Email: {{ user.getEmail() }}</h3>
+        <h3> Contact Info: {{ user.getPhone() }}</h3>
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Posts{% endblock %}
+{% block content %}
+
+<div>
+    {% for post in data %}
+        <img class ="w-40% p-1" src="{{ post.getImageURL() }}" alt="{{ post.getName() }}">
+        <strong> Author: {{ post.getAuthor().getName() }}</strong>
+        <h3> Title: {{ post.getTitle() }}</h3>
+        <h3> Description: {{ post.getBody() }}</h3>
+    {% endfor %}
+</div>
+
+{% endblock %}
