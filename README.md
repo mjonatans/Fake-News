@@ -1,6 +1,5 @@
 Fake News: A simple website built with some fake users, posts and comments.
 
-===============\
 How to set up project:
 ===============
 
